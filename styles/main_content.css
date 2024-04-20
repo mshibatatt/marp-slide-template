@@ -1,0 +1,35 @@
+/* @theme main_content */
+/* 
+ * 1: h1 header
+ * 2: h2 message from title
+ * 3: main content
+ * 4: h3 footnote
+ * */
+
+section.content {
+  display: grid;
+  grid-template-rows: 10% 5% 1fr 5%;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  background-color: var(--base-color);
+  font-size: var(--base-font-size);
+}
+
+/* make anonymous item put here */
+section.content div:nth-child(1) {
+  grid-row: 3;
+}
+
+section.content h2 {
+  grid-row: 2;
+  font-size: var(--h2-font-size);
+}
+
+section.content {
+  grid-row: 3;
+}
+
+section.content h3 {
+  grid-row: 4;
+  font-size: var(--h3-font-size);
+}

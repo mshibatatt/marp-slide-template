@@ -1,0 +1,8 @@
+/* @theme debug */
+
+/* デバックモードでは全要素にborder をつける */
+* {
+  border: 1px dashed gray;
+}
+
+@import 'mytheme';
