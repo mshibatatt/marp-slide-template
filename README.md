@@ -2,5 +2,5 @@
 [marp](https://marp.app/)を使ってスライドを作るときのCSSテンプレート
 
 ```
-marp example.md --theme-set styles/*.css
+npx @marp-team/marp-cli@latest example.md --theme-set styles/*.css
 ```

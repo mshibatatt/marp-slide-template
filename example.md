@@ -2,6 +2,7 @@
 marp: true
 theme: 'mytheme'
 paginate: true
+math: katex
 ---
 
 <!-- _class: title -->
